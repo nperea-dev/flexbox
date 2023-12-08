@@ -11,8 +11,8 @@ body {
 }
 
 nav > img {
-  margin: auto;
   display: block;
+  margin: auto;
   width: 200px;
 }
 
@@ -32,6 +32,34 @@ nav > img {
   background-color: #eaeaea;
   box-shadow: #00000017 0px 3px 6px;
   padding: 40px 20px;
-
-  /* Add the flexbox here */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
+.block {
+  margin: auto;
+}
+
+
+.div-texto {
+  margin-top: 2rem;
+  }
+
+p {
+  
+ text-align: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #3d5656; 
+}
+
+.div-texto2 {
+  width: 50%;
+ 
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #3d5656; 
+  margin-top: 2rem;
+  }
