@@ -1,0 +1,79 @@
+/* Go to line 36 to add the flexbox to the navbar */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > img {
+  margin: auto;
+  display: block;
+  width: 200px;
+}
+
+.nav-link {
+  color: #3d5656;
+  font-size: 1.3rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #68b984;
+}
+
+.nav-bar {
+  list-style-type: none;
+  background-color: #eaeaea;
+  box-shadow: #00000017 0px 3px 6px;
+  padding: 40px 20px;
+
+  /* Add the flexbox here */
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+.nav2 {
+  background-color: #68b984;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav2 img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+  cursor: pointer;
+}
+.nav-bar2 {
+  list-style-type: none;
+  margin-right: 30px;
+  font-size: 1.7rem;
+  font-weight: 800;
+  cursor: pointer;
+  color: #0342249d;
+  background-color: #68b984;
+  box-shadow: #00000017 0px 3px 6px;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.name {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #3d5656;
+  margin: 20px;
+
+}
