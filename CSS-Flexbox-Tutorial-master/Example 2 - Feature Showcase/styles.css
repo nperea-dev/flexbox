@@ -11,18 +11,28 @@ body {
 
 .features {
   /* Add flexbox here */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+  gap: 40px;
+  flex-wrap: wrap;
+  
 }
 
 .feature-container {
   background-color: #fff;
   padding: 40px 20px;
-  width: 450px;
+  width: 350px;
   height: 300px;
   border-radius: 1rem;
   background: #e0e0e0;
   box-shadow: 26px 26px 100px #c5c5c5, -26px -26px 100px #fbfbfb;
 
   /* Add flexbox here */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .feature-container > h3 {
@@ -43,3 +53,13 @@ body {
   cursor: pointer;
   box-shadow: 0 3px 6px #0000001e;
 }
+
+
+@media (max-width: 768px) {
+  .features {
+    /* Add flexbox here */
+    flex-direction: column;
+    align-items: center;
+  }
+}
+```
