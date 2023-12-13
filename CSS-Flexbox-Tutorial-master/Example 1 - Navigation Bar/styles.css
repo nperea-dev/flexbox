@@ -25,6 +25,7 @@ nav > img {
 
 .nav-link:hover {
   color: #68b984;
+  transform: scale(1.2, 3);
 }
 
 .nav-bar {
@@ -33,7 +34,7 @@ nav > img {
   box-shadow: #00000017 0px 3px 6px;
   padding: 40px 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   
 }
@@ -46,20 +47,44 @@ nav > img {
   margin-top: 2rem;
   }
 
-p {
+  .div-texto > p {
   
- text-align: center;
-  font-size: 1.2rem;
-  font-weight: 800;
-  color: #3d5656; 
-}
+    text-align: center;
+     font-size: 1.2rem;
+     font-weight: 800;
+     color: #3d5656; 
+   }
 
 .div-texto2 {
-  width: 50%;
- 
+  width: 60%;
   margin: auto;
   font-size: 1.2rem;
   font-weight: 800;
   color: #3d5656; 
   margin-top: 2rem;
   }
+
+  .div-texto2 > p {
+   color: #0db3b3; 
+   }
+.ul-img {
+  display:flex;
+  flex-flow: row wrap;
+}
+
+
+
+.footer {
+  list-style-type: none;
+  background-color: #8f8b8b;
+  box-shadow: #6b696917 0px 3px 6px;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: antiquewhite;
+  
+}
+.articles-imgs:hover {
+  transform: scale(3, 3);
+}
